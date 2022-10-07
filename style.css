@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    
+    height: 600px;
+    width: 100%;
+    background-image: url(./back.jpg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 350px;
+}
+.heading {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+ul li {
+    color: white;
+    list-style: none;
+    display: flex;
+    
+}
+button {
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: white;
+}
+.footer {
+    width: 35%;
+    height: 300px;
+    border: 1px solid red;
+    background-color: rgb(236, 5, 55);
+}
+.fot {
+    width: 35%;
+    height: 300px;
+    background-color: gray;
+}
